@@ -83,24 +83,24 @@ header img{
     	margin-bottom: 5px;
     }
     #menu-bar:checked ~ nav.up{
-		transform: translateX(0%);
+	transform: translateX(0%);
     }
     header nav.up{
-		position: absolute;
-		width: 100%;
-		background: black;
-		transition: all 1s;
-		transform: translateX(100%);
-		padding-right: 0px;
+	position: absolute;
+	width: 100%;
+	background: black;
+	transition: all 1s;
+	transform: translateX(100%);
+	padding-right: 0px;
     }
     header nav.up li a{
     	display: block;
-		color: white;
-		height: 50px;
-		text-decoration: none;
-		padding: 15px;
-		font-family: proximanova-bold-webfont;
-		border-bottom: 1px solid rgba(201, 220, 255, 0.5);
+	color: white;
+	height: 50px;
+	text-decoration: none;
+	padding: 15px;
+	font-family: proximanova-bold-webfont;
+	border-bottom: 1px solid rgba(201, 220, 255, 0.5);
     }
     header nav.up li{
     	display: block;
@@ -108,26 +108,26 @@ header img{
     nav.up{
 	margin-top: 0px !important;
     }	
-	footer{
-		width: 100%;
-		margin-top: 30px;
-	}
-	footer nav.nav-texto li a{
-		font-size: 1em;
-		padding-left: 10%;
-		padding-right: 10%;
-	}
-	footer nav.links li{
-		margin-left: 0.5%;
-		margin-right: 0.5%;
-		padding-bottom: 10px;
-	}
-	footer nav.links li a img{
-		width: 25px;
-	}
-	nav.privancy li a{
-		font-size: 0.8em;
-	}
+    footer{
+	width: 100%;
+	margin-top: 30px;
+    }
+    footer nav.nav-texto li a{
+	font-size: 1em;
+	padding-left: 10%;
+	padding-right: 10%;
+    }
+    footer nav.links li{
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	padding-bottom: 10px;
+    }
+    footer nav.links li a img{
+	width: 25px;
+    }
+    nav.privancy li a{
+	font-size: 0.8em;
+    }
 	nav.privancy ul{
 		padding-bottom: 20px;
 	}
