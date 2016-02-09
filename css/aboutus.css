@@ -10,7 +10,7 @@
 	margin-top: 5%;
 }
 .about .espacio{
-	padding: 4% 17%;
+	padding: 2% 17% 6%;
 	line-height: 30px;
 }
 .about .icon{
@@ -32,12 +32,6 @@
        font-size: 2em;
        margin-bottom: 8%;
        padding-top: 60px;
-	}
-	.about img.icon{
-		display: block;
-		margin: 0px auto;
-		right: 0%;
-	    top:  0px;
 	}
 	.about .espacio{
 		padding: 2% 5%;
@@ -63,6 +57,13 @@
 		display: block;
 		text-align: center;
 	}
+	.about img.icon{
+		display: block;
+		margin: 0px auto;
+		right: 0%;
+	    top:  0px;
+	}
+	
 	.about img.comilla{
        display: block;
        margin: 25px auto;
