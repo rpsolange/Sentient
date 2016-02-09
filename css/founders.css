@@ -1,0 +1,75 @@
+.founders{
+	background-color: #F6F6F6;
+	border-bottom: 1px solid #D5D5D5;
+}
+.founders h2{
+	font-weight: lighter;
+	padding-top: 5%;
+}
+.founders .caja{
+	display: inline-block;
+	margin: 2% 1%;
+	font-family: proximanova-light-webfont;
+	background-color: white;
+	width: 186px;
+	padding: 0.2%;
+	height: 240px;
+	color: black;
+}
+.founders .caja p{
+	font-size: 0.8em;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+.chief{
+    position: relative;
+    top: 13.5px;
+}
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete{
+    background-size: cover;
+    width: 182px;
+	height: 150px;
+	margin-bottom: 10%;
+}
+.uno{
+	background-image: url("../img/foto 1.jpg");
+}
+.dos{
+	background-image: url("../img/foto 2.jpg");
+}
+.tres{
+	background-image: url("../img/foto 3.jpg");
+}
+.cuatro{
+	background-image: url("../img/foto 4.jpg");
+}
+.cinco{
+	background-image: url("../img/foto 5.jpg");
+}
+.seis{
+	background-image: url("../img/foto 6.jpg");
+}
+.siete{
+	background-image: url("../img/foto 7.jpg");
+}
+.founders h3{
+	font-weight: lighter;
+	margin-top: 2%;
+}
+
+@media (max-width: 480px) {
+	.founders h2{
+	  	padding-top: 25%;
+	  	font-size: 2em;
+	  	margin-bottom: 10%;
+    }
+    .founders .caja{
+	   display: block;
+	   margin: 6%;
+	   width: 184px;
+    }
+    .jefe{
+    	position: relative;
+    	top: 20px;
+    }
+}

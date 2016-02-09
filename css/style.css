@@ -1,0 +1,78 @@
+.fondo{
+	background-image: url("../img/background-about-us-2x.jpg");
+    background-size: cover;
+    padding-bottom:  10%;  
+}
+.fondo h2{
+	color: white;
+	font-size: 2.4em;
+	padding: 5% 0% 3% 0%;
+}
+.read{
+	color: white;
+	border-radius: 5px;
+	font-size: 1.5em;
+	font-family: proximanova-regular-webfont;	
+	padding: 1% 4%;
+}
+
+.fondo .cuadro{
+	padding: 3% 26% ;
+	line-height: 26px;
+}
+.fila{
+	padding: 3% 24% 0%;
+}
+.parrafo{
+	font-family: proximanova-light-webfont;
+	font-size: 1.6em;
+}
+.contacto, .apply{
+	width: 175px;
+	height: 45px;
+	border-radius: 5px;
+	font-size: 1.4em;
+	font-family: proximanova-regular-webfont;
+	padding: 5% 1%;
+}
+.contacto{
+	border: 2px solid white;
+}
+
+@media (max-width: 480px){
+	.fondo {
+		background-position: center;
+	}
+	.fondo h2{
+		font-size: 2em;
+		padding: 12% 26% 6%;
+		line-height: 46px;
+	}
+	.read{
+		border-radius: 0px;
+        font-size: 1.4em;
+        padding: 3% 12%;
+	}
+    .fondo .cuadro{
+	    padding: 4% 14% ;
+	    line-height: 28px;
+	    margin-top: 8%;
+    }
+    .parrafo{
+	    font-size: 1.4em;
+	    width: 100%;
+	    text-align: center;
+	    line-height: 28px;
+    }
+    .fila{
+    	padding: 10% 6% 0%;
+    }
+    .contacto, .apply{
+	width: 450%;
+	height: 60px;
+	border-radius: 0px;
+	font-size: 1.8em;
+	padding: 15%;
+	margin: 40% 50% 25% 50%;
+    }
+} 

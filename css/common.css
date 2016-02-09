@@ -1,0 +1,194 @@
+/*INDICACIONES DISEÑADORA GRÁFICA*/
+html{
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-family: proximanova-regular-webfont;
+	font-size: 3em;
+}
+h2{
+	font-family: proximanova-light-webfont;
+	font-size: 2.6em;
+}
+h3{
+	font-family: proximanova-light-webfont;
+	font-size: 1.8em;
+}
+p.texto{
+	font-family: proximanova-regular-webfont;
+	font-size: 1em;
+}
+p.cuadro{
+	font-family: proximanova-regular-webfont;
+	font-size: 1em;
+	text-align: center;
+}
+p.quote{
+	font-family: proximanova-light-webfont;
+	font-size: 1.3em;
+}
+/*ESTILOS PROPIOS*/
+nav{
+	margin-top: 2.5%;
+}
+nav.up{
+	margin-top: 30px !important;
+}
+input{
+	display: none;
+}
+label{
+	display: none;
+}
+nav ul{
+	list-style-type: none;
+	white-space: nowrap;
+}
+nav li{
+	position: relative;
+	display: inline-block;
+}
+header{
+	background-color: white;
+	border-bottom: 1px solid #D5D5D5; 
+}
+header nav{
+	padding-right: 60px;
+}
+header img{
+	width: auto;
+	margin-left: 80px;
+}
+@media screen and (max-width: 960px) {
+    header {
+    	width: 100%;
+        position: fixed;
+        text-align: center;
+        z-index: 100;
+    }
+    header label{
+    	font-size: 1.6em;
+    	margin: 15px 0px;
+    	cursor: pointer;
+    	display: block;
+    	float: right;
+    }
+    header img{
+    	width: 120px;
+    	margin: 0px auto;
+    	margin-top: 5px;
+    	margin-bottom: 5px;
+    }
+    #menu-bar:checked ~ nav.up{
+		transform: translateX(0%);
+    }
+    header nav.up{
+		position: absolute;
+		width: 100%;
+		background: black;
+		transition: all 1s;
+		transform: translateX(100%);
+		padding-right: 0px;
+    }
+    header nav.up li a{
+    	display: block;
+		color: white;
+		height: 50px;
+		text-decoration: none;
+		padding: 15px;
+		font-family: proximanova-bold-webfont;
+		border-bottom: 1px solid rgba(201, 220, 255, 0.5);
+    }
+    header nav.up li{
+    	display: block;
+    }
+    nav.up{
+	margin-top: 0px !important;
+	}	
+	footer{
+		width: 100%;
+		margin-top: 30px;
+	}
+	footer nav.nav-texto li a{
+		font-size: 1em;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	footer nav.links li{
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+		padding-bottom: 10px;
+	}
+	footer nav.links li a img{
+		width: 25px;
+	}
+	nav.privancy li a{
+		font-size: 0.8em;
+	}
+	nav.privancy ul{
+		padding-bottom: 20px;
+	}
+	footer p.cuadro{
+		font-size: 0.6em;
+		width: 64%;
+		margin: 0px auto;
+		line-height: 1.5;
+		padding-bottom: 20px;
+	}
+}
+header nav.nav-texto{
+	float: right;
+	margin-top: 25px;
+}
+header nav.nav-texto ul li:first-child{
+	border-right: 1px solid gray;
+}
+header nav.nav-texto a{
+	color: #002366;
+	text-shadow: 0px 0px 2px gray;
+}
+header nav.nav-texto li:hover a{
+	background-color: #002366;
+}
+nav.nav-texto a{
+	padding: 10px 25px;
+	font-size: 18px;
+	font-family: proximanova-light-webfont;
+}
+footer nav{
+	text-align: center;
+}
+footer nav.nav-texto a{
+	color: #606060;
+}
+footer nav.links li{
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+nav.privancy{
+	margin-top: 1.5%;
+	margin-bottom: 2%;
+}
+nav.privancy a{
+	font-family: proximanova-light-webfont;
+	font-size: 1.2em;
+	color: #979797;
+}
+nav.privancy li{
+	padding: 0px 20px;
+}
+nav.privancy a:hover{
+	color: black;
+}
+@media screen and (min-width: 960px){
+	footer nav.nav-texto li:hover a{
+	background-color: #606060;
+	}
+	nav.nav-texto a:hover{
+	color:white;
+	text-shadow: 0px 0px 2px white;
+	}
+}

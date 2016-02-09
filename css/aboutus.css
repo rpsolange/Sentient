@@ -1,0 +1,79 @@
+@import url(style.css);
+@import url(management.css);
+@import url(founders.css);
+
+*{
+	box-sizing: border-box;
+}
+.about h2{
+	color: #002366;
+	margin-top: 5%;
+}
+.about .espacio{
+	padding: 4% 17%;
+	line-height: 30px;
+}
+.about .icon{
+	position: relative;
+	right: 8%;
+	top: 30px;
+}
+.about img.comilla{
+    transform: rotate(180deg);
+    margin: 0px auto;
+}
+.about .col-7{
+	position: relative;
+	top: 25px;
+}
+
+@media (max-width: 480px) {
+	.about h2{
+       font-size: 2em;
+       margin-bottom: 8%;
+       padding-top: 60px;
+	}
+	.about img.icon{
+		display: block;
+		margin: 0px auto;
+		right: 0%;
+	    top:  0px;
+	}
+	.about .espacio{
+		padding: 2% 5%;
+		padding-bottom: 25%;
+	}
+    .about img.comilla{
+       display: block;
+       margin: 20px auto;
+    }
+    .espacio .quote{
+    	margin-top: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+	.about .espacio{
+	   padding: 3% 12%;
+	   line-height: 25px;
+	   margin-bottom: 20px;
+    }
+    .col-5, .col-7{
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.about img.comilla{
+       display: block;
+       margin: 25px auto;
+    }
+	.espacio .quote{
+    	margin-top: 30px;
+    }
+    .texto{
+    	margin-bottom: 20px;
+    }
+    .about h2{
+       padding-top: 60px;
+	}
+}

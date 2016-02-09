@@ -1,0 +1,119 @@
+/*Global*/
+@font-face{
+	font-family: proximanova-bold-webfont;
+	src: url(../fonts/proxima-nova/proximanova-bold-webfont.ttf);
+}
+@font-face{
+	font-family: proximanova-light-webfont;
+	src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
+}
+@font-face{
+	font-family: proximanova-regitalic-webfont;
+	src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+	font-family: proximanova-regular-webfont;
+	src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
+}
+@font-face{
+	font-family: ProximaNova-Semibold;
+	src: url(../fonts/proxima-nova/ProximaNova-Semibold.otf);
+}
+
+/* Shortcuts */
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.pd-0{
+	padding: 0;
+}
+.pd-5{
+	padding: 5%;
+}
+.pd-10{
+	padding: 10%;
+}
+.plr-5{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.plr-6{
+	padding-left: 6%;
+	padding-right: 6%;
+}
+.plr-20{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.plr-28{
+	padding-left: 28%;
+	padding-right: 28%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pt-10{
+	padding-top: 10%;
+}
+.pt-15{
+	padding-top: 15%;
+}
+.pb-3{
+	padding-bottom: 3%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pb-8{
+	padding-bottom: 8%;
+}
+.pb-10{
+	padding-bottom: 10%;
+}
+.pb-15{
+	padding-bottom: 15%;
+}
+.mg-0{
+	margin: 0;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-white{
+	color: white;
+}
+.text-gray-dark{
+	color: rgb(83, 88, 95);
+}
+.text-blue{
+ color: #002366;
+}
+.text-skyblue{
+	color: #179AD6;
+}
+.text-gray{
+	color: #606060;
+}
+.text-gray-light{
+	color: #979797;
+}
+.text-ghost{
+	color: rgb(246, 246, 246);
+}
+.bg-blue{
+	background-color: #002366;
+}
+.bg-skyblue{
+	background-color: #179AD6;
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
